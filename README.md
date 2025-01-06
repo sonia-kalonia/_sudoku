@@ -8,7 +8,7 @@
 
 
 
-    Images: https://unsplash.com/
+
 
 # Preview
 
