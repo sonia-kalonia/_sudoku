@@ -9,6 +9,4 @@
 
 
 
-# Preview
 
-!["Make Sudoku Game With HTML CSS JavaScript"]
