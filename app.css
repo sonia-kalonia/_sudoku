@@ -6,7 +6,7 @@
     --filled-bg: #caf0f8;
 
     --white: #fff;
-    --blue: #00aeef;
+    --blue: #141413;
     --red: #e91e63;
     --black: #000;
 
@@ -41,7 +41,6 @@
 
 body {
     font-family: "Potta One", cursive;
-    /* height: 100vh; */
     background-color: var(--bg-body);
     overflow-x: hidden;
     user-select: none;
@@ -115,7 +114,6 @@ nav {
 }
 
 .main {
-    /* height: 100vh; */
     padding-top: var(--nav-size);
     display: grid;
     place-items: center;
@@ -176,8 +174,12 @@ nav {
 }
 
 .btn-blue {
-    background-color: var(--blue);
+    background-color: #a9c757;  /* Light Blue */
     color: var(--white);
+}
+
+.btn-blue:hover {
+    background-color: #749749;  /* Darker shade of blue */
 }
 
 .input-err {
@@ -257,6 +259,15 @@ nav {
 .main-grid-cell.err {
     background-color: var(--red);
     color: var(--white);
+}
+
+/* Alternate grid cell colors */
+.main-grid-cell:nth-child(odd) {
+    background-color: #d4ed91;  /* Light Green */
+}
+
+.main-grid-cell:nth-child(even) {
+    background-color: #f1e6a6;  /* Light Yellow */
 }
 
 .main-game-info {
